@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>竖排菜单</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/metismenu.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="menu-container">
+			<div class="menu-content bgcolor-8">
+				<div class="clearfix">
+					<aside class="sidebar">
+						<nav class="sidebar-nav">
+							<ul id="menu">
+								<li>
+									<a href="#">
+										<span class="glyphicon glyphicon-list"></span>
+										<span class="sidebar-nav-item">level one</span>
+										<span class="glyphicon arrow"></span>
+									</a>
+									<ul>
+										<li>
+											<a href="#" target="_blank">
+												level two
+											</a>
+										</li>
+										<li>
+											<a href="#" target="_blank">
+												level two
+											</a>
+										</li>
+										<li>
+											<a href="#" target="_blank">
+												level two
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										<span class="glyphicon glyphicon-list"></span>
+										<span class="sidebar-nav-item">level one</span>
+										<span class="glyphicon arrow"></span>
+									</a>
+									<ul>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#" target="_blank">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										<span class="glyphicon glyphicon-list"></span>
+										<span class="sidebar-nav-item">level one</span>
+										<span class="glyphicon arrow"></span>
+									</a>
+									<ul>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="glyphicon glyphicon-list"></span>
+												<span class="sidebar-nav-item">level two</span>
+												<span class="glyphicon arrow"></span>
+											</a>
+											<ul>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="glyphicon glyphicon-list"></span>
+												<span class="sidebar-nav-item">level two</span>
+												<span class="glyphicon arrow"></span>
+											</a>
+											<ul>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+												<li>
+													<a href="#">level three</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">
+										<span class="glyphicon glyphicon-list"></span>
+										<span class="sidebar-nav-item">level one</span>
+										<span class="glyphicon arrow"></span>
+									</a>
+									<ul>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+										<li>
+											<a href="#">level two</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/metismenu.js"></script>
+
+		<!--if ie-->
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.js"></script>
+		<!--endif-->
+
+		<script>
+			$(function() {
+
+				$('#menu').metisMenu();
+
+				$('#menu2').metisMenu({
+					toggle: false
+				});
+
+				$('#menu3').metisMenu({
+					doubleTapToGo: true
+				});
+			});
+		</script>
+	</body>
+
+</html>

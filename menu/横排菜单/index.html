@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<title>横排菜单</title>
+		<link rel="stylesheet" href="../../resource/css/bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="li">
+						<a href="#">Level 1</a>
+					</li>
+					<li class="li">
+						<a href="#">Level 1</a>
+					</li>
+					<li class="dropdown li">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Level 1</a>
+						<ul class="dropdown-menu menu-top">
+							<li class="li">
+								<a href="#" class="a">Level 2</a>
+							</li>
+							<li class="dropdown-submenu li">
+								<a tabindex="-1" href="#"  class="a">Level 2</a>
+								<ul class="dropdown-menu">
+									<li class="li">
+										<a tabindex="-1" href="#" class="a">Level 3</a>
+									</li>
+									<li class="li">
+										<a href="#" class="a">Level 3</a>
+									</li>
+									<li class="li">
+										<a href="#" class="a">Level 3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="li">
+								<a href="#"  class="a">Level 2</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<script src="../../resource/js/jquery-1.8.3.min.js"></script>
+		<script src="../../resource/js/bootstrap.min.js"></script>
+
+		<!--if ie-->
+		<script src="../../resource/js/html5shiv.js"></script>
+		<script src="../../resource/js/respond.js"></script>
+		<!--endif-->
+
+	</body>
+
+</html>

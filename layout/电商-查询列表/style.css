@@ -1,0 +1,38 @@
+.body {
+    width: 100%;
+    height: 100%;
+    padding: 2% 2% 2% 2%;
+    background-color: #fef6c9;
+    font-family: Helvetica;
+}
+/*main*/
+.main {
+    padding: 10px;
+    background-color: #d4dfc7;
+}
+.menu {
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #96c0b7;
+}
+.list {
+    height: 500px;
+    background-color: #96c0b7;
+}
+/*aside*/
+.aside {
+    padding: 10px;
+    background-color: #d4dfc7;
+}
+.aside-label {
+    height: 80px;
+    background-color: #96c0b7;
+    margin-bottom: 30px;
+}
+.suggestion {
+    height: 100px;
+    background-color: #96c0b7;
+    margin-bottom: 20px;
+}
+
+

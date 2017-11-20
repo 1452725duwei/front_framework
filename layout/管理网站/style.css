@@ -1,0 +1,73 @@
+* {
+    font-family: Helvetica;
+    color: black;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6c9;
+}
+.logo {
+    margin: 10px;
+}
+a ,label{
+    font-weight: 100;
+    color: black;
+}
+.aside {
+    width: 230px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0;
+    background-color:  #96c0b7;
+    height: 100%;
+
+}
+.aside-in {
+    width: 230px;
+    position:fixed;
+    top: 40px;
+    bottom: 40px;
+    overflow: auto;
+    background-color:  #96c0b7;
+}
+.title {
+    height: 40px;
+    margin: 10px;
+}
+.aside-contract {
+    width: 50px;
+}
+.contract {
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+.list-group-item {
+    background-color:  #96c0b7;
+}
+.header {
+    position: fixed;
+    top:0;
+    height:40px;
+    background-color:  #878e88;
+    width:100%;
+}
+.main-content {
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: auto;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+.main-content-contract {
+    margin-left: 50px;
+}
+.content {
+    margin: 20px 10px 20px 10px;
+}
