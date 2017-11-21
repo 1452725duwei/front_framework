@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     font-family: Helvetica;
+    display: table;
 }
 /*header*/
 .header {
@@ -14,22 +15,20 @@
 }
 /*main*/
 .main {
-	position:fixed;
+	margin:130px auto;
+    float: none;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
 	z-index: 600;
-	top:50%;
-	left:50%;
-	width: 1200px;
 	height: 360px;
-	margin-left: -600px;
-	margin-top: -180px;
 	background-color:#96c0b7 ;
+	padding: 2%;
+	background-image: url(../../resource/img/ui-sam.jpg) ;
 }
 .form-login {
-	position: fixed;
 	width: 200px;
 	height: 300px;
-	top: 25%;
-	right:8%;
 	background: #fff;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -38,7 +37,7 @@
 	margin: 0;
 	padding: 25px 20px;
 	text-align: center;
-	background: #878e88;
+	background: #4380db;
 	border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
 	color: #fff;
@@ -52,7 +51,6 @@
 }
 
 /*footer*/
-
 .footer{
 	width: 100%;
 	position:fixed;
