@@ -9,7 +9,15 @@
   overflow: hidden;
   width: auto;
 }
-
+@media only screen and (min-width:768px) {
+	body{
+		width: 200px;
+	}
+	.nav{
+		width: 150px;
+	}
+	
+}{}
 .sidebar-nav {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background-image: -webkit-linear-gradient(left, color-stop(#333333 10px), color-stop(#222222 10px));
